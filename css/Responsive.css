@@ -1,0 +1,68 @@
+/*======================================
+         Bootstrap 4 Media Queries
+========================================*/
+/*Media Query For Large Devices*/
+@media (min-width: 1200px) {
+
+}
+
+/*Media Query For Laptops and Small Desktops Devices*/
+@media (min-width: 992px) and (max-width: 1199px){
+    ul.navbar-nav>li>a{
+        font-size: 13px;
+    }
+    .service-tab .tab-bg{
+        min-height: 395px;
+    }
+    .service-tab .tab-bg{
+        padding: 32px 25px;
+    }
+    .vertical-heading h2{
+        font-size: 35px;
+    }
+    .service-tab .tab-bg p{
+        line-height: 20px;
+    }
+    .content-box-lg{
+        padding: 100px 0;
+    }
+    .content-box-md{
+        padding: 50px 0;
+    }
+    #services-tabs ul{
+        margin-bottom: 12px;
+    }
+}
+
+/*Media Query For small Laptops and Tabs Devices*/
+@media (min-width: 768px) and (max-width: 991px){
+    .vertical-heading h2{
+        font-size: 29px;
+    }
+    #home-heading h1{
+        font-size: 42px;
+    }
+    #home-text p{
+        font-size: 13px;
+    }
+    .btn-general{
+        padding: 12px 35px 12px 35px;
+    }
+    .navbar{
+        padding: 15px 10px 20px 10px;
+    }
+    #statement .tech-statement h3{
+        font-size: 20px;
+        line-height: 34px;
+    }
+}
+
+/*Media Query For small Tabs and small Devices*/
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+/*Media Query For Small  Devices*/
+@media (max-width: 575px){
+
+}
